@@ -37,10 +37,3 @@ q=(math.sqrt(x))*(math.sqrt(y))
 print(q)
 c=(sum/q)*100
 print(c)
-
-
-
-
-
-
-	
