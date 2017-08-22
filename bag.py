@@ -1,9 +1,7 @@
-a=open("f1.txt",'r')
-b=open("f2.txt",'r')
-p1=a.read()
-p2=b.read()
-p1=p1.lower()
-p2=p2.lower()
+a=open('f1.txt','r')
+b=open('f2.txt','r')
+p1,p2=a.read(),b.read()
+p1,p2=p1.lower(),p2.lower()
 def filter(p):
 	s='abcdefghijklmnopqrstuvwxyz0123456789_'
 	for i in range(len(p)):
@@ -11,10 +9,8 @@ def filter(p):
 			p=p.replace(p[i]," ")
 		return(p)
 
-n1=filter(p1)
-n2=filter(p2)
-s = n1.split(" ")
-p = n2.split(" ")
+n1,n2=filter(p1),filter(p2)
+s,p = n1.split(" "),n2.split(" ")
 def freq(n):
 	d={}
 	for i in n:
@@ -38,15 +34,14 @@ def sqroot(d):
 		x=x+((d[i])**2)
 	return(x)
 
-d1=freq(s)
-d2=freq(p)
+d1,d2=freq(s),freq(p)
 sum=dot_sum(d1,d2)
 x=sqroot(d1)
 y=sqroot(d2)
 import math
 q=(math.sqrt(x))*(math.sqrt(y))
 c=(sum/q)*100
-print(c)
+print("for %c and %c match is %s",i,j,c)
 
 
 

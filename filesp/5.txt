@@ -1,0 +1,35 @@
+Day3:
+b.Kinds of poetry:
+Epic poem:
+?	Example: Illiad written by Homer
+?	Features:
+?	 consists of 15000 lines
+?	Strict rhythmic structure
+Sonnet:
+?	Example: William shakesphere’s sonnet18
+?	Features:
+?	It has 14 lines of verse
+?	Occured during European renaissance
+Traditional Poetry:
+?	Example:Japanese hiku
+?	Features:
+?	It is 17 syllable in 5-7-5 syllable pattern
+?	Describes nature and communicates an abstract or a feeling in a moment of time
+c.
+1. 3
+2. 2
+3. 6
+4. 4
+5. 3
+6. 1
+7. 3
+2A.
+1.enduring ,lasting
+2.Held dear,Valued
+3.Recording,Registering
+4.War,battle
+5.Wrote,composed
+6.Way,means
+7.Ongoing,continuing
+8.Verse ,poem
+

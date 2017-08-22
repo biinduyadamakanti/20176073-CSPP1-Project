@@ -1,0 +1,15 @@
+                                           Day-7Online Task:
+1.The article is written for all the business employers who store their data as electronic data .It is trying to emphasize the security aspects of the electronic data.The title question’s the safety of electronic data as there had been  increase in the loss of safety of confidential electronic data
+2. “another threat that’s closer to home” indicates the threat of losing the confidential data when the employees are given a chance to work from home
+3.Over the 60 percent of employees access their personal email from the company’s computers atleast once a day
+4.The writer is driving home the point that the loss that occurs when the internal employee is  malicious is of much more loss than that of the outsider
+5.The writer feels that the  when the company’s information is shared by the employee to the outsiders i.e to their family or friends that will be a serious security issue as there will be loss of confidentiality which leads to the increase in chances of the loss of information. So the writer strictly prohibits the sharing of the company’s information by the employee to outsiders.
+6.The employee may think their usage of company computer as legitimate since they may feel that since  they are loyal to the company they work ,nothing costs much if they access their personal mails from the companies computer. Also, as there is not much limit on what is not to be accessed on the company’s computer, the employee may feel legitimate.
+A.
+1.g
+2.f
+3.a
+4.b
+5.c
+6.e
+7.d
