@@ -4,6 +4,7 @@ def filter(p):
 	for i in range(len(p)):
 		if p[i] not in s:
 			p=p.replace(p[i]," ")
+		print(p)
 		return(p)
 def freq(n):
 	d={}
@@ -12,6 +13,7 @@ def freq(n):
 			d[i]+=1
 		else:
 			d[i]=1
+	print(d)
 	return d
 
 def dot_sum(d1,d2):
@@ -67,8 +69,6 @@ for i in l:
 			e="  0"
 			t.append(e)
 	o.append(t)
-
-
 print(o)
 
 

@@ -2,15 +2,21 @@ a=open('f1.txt','r')
 b=open('f2.txt','r')
 p1,p2=a.read(),b.read()
 p1,p2=p1.lower(),p2.lower()
-def filter(p):
-	s='abcdefghijklmnopqrstuvwxyz0123456789_'
-	for i in range(len(p)):
-		if p[i] not in s:
-			p=p.replace(p[i]," ")
-		return(p)
+#def filter(p):
+s='abcdefghijklmnopqrstuvwxyz0123456789_'
+for i in p1:
+	for c in str(i):
+		print(i)
+		if c not in s:
+			p1=p1.replace(c," ")
+		#print(p)	
+		print(p1)
 
-n1,n2=filter(p1),filter(p2)
-s,p = n1.split(" "),n2.split(" ")
+
+#n1=filter(p1)
+#n2=filter(p2)
+s= n1.split(" ")
+p=n2.split(" ")
 def freq(n):
 	d={}
 	for i in n:
@@ -41,7 +47,7 @@ y=sqroot(d2)
 import math
 q=(math.sqrt(x))*(math.sqrt(y))
 c=(sum/q)*100
-print("for %c and %c match is %s",i,j,c)
+
 
 
 
