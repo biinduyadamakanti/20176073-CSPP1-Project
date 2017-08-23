@@ -1,19 +1,26 @@
 
 def filter(p):
-	s='abcdefghijklmnopqrstuvwxyz0123456789_'
-	for i in range(len(p)):
-		if p[i] not in s:
-			p=p.replace(p[i]," ")
-		print(p)
-		return(p)
+	s=''
+	q='abcdefghijklmnopqrstuvwxyz0123456789_'
+	for i in p:
+		if i in q:
+			s=s+i
+		elif i==" ":
+			s=s+" "
+		else:
+			s=s+""
+	return(s)
 def freq(n):
-	d={}
+	l=[]
 	for i in n:
+		if i!='':
+			l.append(i)
+	d={}
+	for i in l:
 		if i in d:
 			d[i]+=1
 		else:
 			d[i]=1
-	print(d)
 	return d
 
 def dot_sum(d1,d2):
@@ -41,7 +48,7 @@ def cos(d1,d2):
 def filelist():
 	import glob,os
 	l=[]
-	os.chdir("filesp")
+	os.chdir("ht")
 	for f in glob.glob("*.txt"):
 		l.append(f)
 	return l
@@ -63,6 +70,7 @@ for i in l:
 			n1,n2=filter(p1),filter(p2)
 			s,p = n1.split(" "),n2.split(" ")
 			d1,d2=freq(s),freq(p)
+			print(d1,d2)
 			e=cos(d1,d2)
 			t.append(e)
 		else:
